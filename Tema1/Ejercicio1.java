@@ -2,6 +2,10 @@ package Tema1;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
+        
+        /* Crear el método main e imprimir todos los datos que se han visto en las sesiones.
+           Recordatorio: Los tipos de datos más comunes son int, long, double, boolean, String.*/
+        
         String nombre = "Hola Mundo";
         byte number = 100;       // 1 byte
         short number2 = 10000;     // 2 byte
