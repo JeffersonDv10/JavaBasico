@@ -3,7 +3,8 @@ package Tema2;
 import java.util.Scanner;
 
 public class Ejercicio2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
+        /* Crear una función que reciba un precio y devuelva el precio con el IVA incluido.*/
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Introducir un precio");
