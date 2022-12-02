@@ -18,4 +18,14 @@ public class SmartPhone extends SmartDevice{
         this.tipo = tipo;
         this.precio = precio;
     }
+    
+    @Override
+    public String toString() {
+        return "{ " +
+                "modelo='" + modelo + '\'' +
+                ", color='" + color + '\'' +
+                ", tipo='" + tipo + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
 }
